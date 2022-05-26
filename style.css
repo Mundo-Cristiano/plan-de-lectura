@@ -128,7 +128,7 @@ a {
 @media (orientation: landscape) {
     ol {
         gap: 3vh;
-        padding: 2vh;
+        padding: 1vh;
         grid-auto-rows: minmax(6vh, auto);
     }
   
