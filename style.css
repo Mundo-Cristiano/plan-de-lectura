@@ -39,6 +39,7 @@ ol {
     height: 100%;
     list-style: none;
     grid-template-columns: repeat(7, 1fr);
+    grid-auto-rows: minmax(3vh, auto);
 }
 
 .first-day-mes-1 {
@@ -88,7 +89,7 @@ ol {
 h1 {
     padding: 1vh;
     margin: 1vh;
-    font-size: 3.5vh;
+    font-size: 3vh;
     text-align: center;
     color: white;
     border: solid yellow 0.1vh;
@@ -102,13 +103,13 @@ h1 {
     border: solid red 0.1vh;
     background: pink;
     text-align: center;
-    font-size: 3vh;
+    font-size: 2.5vh;
 }
 
 h5 {
     color: fuchsia;
     width: 100%;
-    font-size: 3vh;
+    font-size: 2.5vh;
     text-align: left;
     background: rgb(173, 216, 230);
 }
