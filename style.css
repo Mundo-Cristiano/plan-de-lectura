@@ -5,6 +5,7 @@
 }
 
 body{
+	margin: 0;
     width: 100%;
 	height: 100%;
 	background: url(img/fondo-ul.png);
@@ -14,6 +15,7 @@ body{
 	background-attachment: fixed;
 	justify-content: center;
 	align-items: center;
+    padding: 0.5vh;
 }
 
 body::before{
@@ -28,33 +30,33 @@ body::before{
 	z-index: -1;
 }
 
-h1 {
-    width: 100%;
-    background: rgba(0, 0, 0, 0.5);
-    text-align: center;
-    color: white;
-    font-size: 3vh;
-}
+
+
 
 ol {
-    position: relative;
+    display: grid;
+    gap: 1vh;
+    padding: 1vh;
+    grid-auto-flow: dense;
+    font-size: 2.4vh;
     width: 100%;
     height: 100%;
     list-style: none;
-    display: grid;
     grid-template-columns: repeat(7, 1fr);
-    grid-template-columns: repeat(auto-fill, minmax(8vh, 7fr));
-    grid-auto-rows: minmax(10vh, auto);
-    gap: 1vh;
 }
 
-.contenedor-libros {
-    border: solid black 0.2vh;
-    text-align: center;
-    width: 100%;
-    margin: 0vh auto;
-    background: rgba(0, 0, 0, 0.5);
+.grid-container {
+    display: grid;
+    gap: 2vh;
+    padding: 1vh;
+    grid-auto-flow: dense;
+    font-size: 2vh;
+    color: white;
+    grid-template-columns: repeat(auto-fill, minmax(25vw, 1fr));
+    grid-auto-rows: minmax(4vh, auto);
 }
+
+
 
 .first-day-mes-1 {
     grid-column-start: 6;
@@ -93,34 +95,45 @@ ol {
     grid-column-start: 4;
 }
 
-
-.day-name {
-    color: rgb(255, 255, 255);
-    width: 100%;
-    border: solid lime 0.5px;
-    background: rgba(0, 0, 0, 0.5);
+.contenedor-libros {
+    border: solid yellow 0.5px;
     text-align: center;
-    font-size: 3vh;
-    margin-top: 1vh;
+    width: 100%;
+    margin: 5px auto;
+    background: rgba(0, 0, 0, 0.5);
 }
 
-.libros {
-    height: 100%;
-    font-size: 2vh;
+h1 {
+    padding: 1vh;
+    margin: 1vh;
+    font-size: 5vh;
     text-align: center;
+    color: rgb(255, 255, 255);
+    background-color: rgba(0, 0, 0, 0.7);
+}
+
+.day-name {
+    position: relative;
+    color: rgb(255, 255, 255);
+    width: 100%;
+    border: solid lawngreen 0.1vh;
+    background: rgba(0, 0, 0, 0.7);
+    text-align: center;
+    font-size: 4vh;
+}
+
+h5 {
+    color: navy;
+    width: 100%;
+    font-size: 3vh;
+    text-align: left;
+    background: rgb(221, 147, 147,0.7);
 }
 
 a {
-    font-size: 1em;
+    font-size: 2vh;
     color: rgb(255, 255, 255);
     text-decoration: none;
 }
 
-h5 {
-    color: black;
-    width: 100%;
-    font-size: 2vh;
-    text-align: left;
-    background: yellow;
-}
 
