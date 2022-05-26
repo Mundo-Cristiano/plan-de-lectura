@@ -100,7 +100,7 @@ h1 {
     color: black;
     width: 100%;
     border: solid red 0.1vh;
-    background: rgba(94, 255, 0);
+    background: pink;
     text-align: center;
     font-size: 4vh;
 }
@@ -126,25 +126,24 @@ a {
     ol {
         gap: 1vw;
         padding: 1vw;
-        grid-auto-rows: minmax(12vh, auto);
+        grid-auto-rows: minmax(5vh, auto);
     }
   
     h1 {
         padding: 1vh;
         margin: 1vh;
-        font-size: 3vw;
+        font-size: 5vw;
     }
     
     .day-name {
-        font-size: 2.5vw;
-        padding-top: 3.5vh;
+        font-size: 4.5vh;
     }
     
     h5 {
-        font-size: 2.5vw;
+        font-size: 4vh;
     }
     
     a {
-        font-size: 2vh;
+        font-size: 3.5vh;
     }
 }
