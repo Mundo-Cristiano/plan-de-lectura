@@ -96,7 +96,7 @@ ol {
 }
 
 .contenedor-libros {
-    border: solid rgb(0, 0, 0) 0.1vh;
+    border: solid skyblue 0.1vh;
     text-align: center;
     width: 100%;
     background: rgba(0, 0, 0, 0.5);
@@ -115,7 +115,7 @@ h1 {
     position: relative;
     color: white;
     width: 100%;
-    border: solid fuchsia 0.1vh;
+    border: solid pink 0.1vh;
     background: rgba(0, 0, 0, 0.7);
     text-align: center;
     font-size: 4vh;
