@@ -96,43 +96,42 @@ ol {
 }
 
 .contenedor-libros {
-    border: solid yellow 0.5px;
+    border: solid rgb(0, 0, 0) 0.1vh;
     text-align: center;
     width: 100%;
-    margin: 5px auto;
     background: rgba(0, 0, 0, 0.5);
 }
 
 h1 {
     padding: 1vh;
     margin: 1vh;
-    font-size: 5vh;
+    font-size: 4.5vh;
     text-align: center;
-    color: rgb(255, 255, 255);
+    color: white;
     background-color: rgba(0, 0, 0, 0.7);
 }
 
 .day-name {
     position: relative;
-    color: rgb(255, 255, 255);
+    color: white;
     width: 100%;
-    border: solid lawngreen 0.1vh;
+    border: solid fuchsia 0.1vh;
     background: rgba(0, 0, 0, 0.7);
     text-align: center;
     font-size: 4vh;
 }
 
 h5 {
-    color: navy;
+    color: rgb(0, 0, 0);
     width: 100%;
-    font-size: 3vh;
+    font-size: 3.5vh;
     text-align: left;
-    background: rgb(221, 147, 147,0.7);
+    background: rgb(255, 0, 255, 0.7);
 }
 
 a {
-    font-size: 2vh;
-    color: rgb(255, 255, 255);
+    font-size: 2.5vh;
+    color: white;
     text-decoration: none;
 }
 
