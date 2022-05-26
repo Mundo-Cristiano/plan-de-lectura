@@ -126,21 +126,21 @@ a {
     ol {
         gap: 1vw;
         padding: 1vw;
-        grid-auto-rows: minmax(5vh, auto);
+        grid-auto-rows: minmax(6vh, auto);
     }
   
     h1 {
         padding: 1vh;
         margin: 1vh;
-        font-size: 5vw;
+        font-size: 6vh;
     }
     
     .day-name {
-        font-size: 4.5vh;
+        font-size: 5vh;
     }
     
     h5 {
-        font-size: 4vh;
+        font-size: 5vh;
     }
     
     a {
