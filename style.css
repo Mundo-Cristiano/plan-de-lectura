@@ -42,40 +42,40 @@ ol {
 }
 
 .first-day-mes-1 {
-    grid-column-start: 6;
-}
-.first-day-mes-2 {
-    grid-column-start: 2;
-}
-.first-day-mes-3 {
-    grid-column-start: 2;
-}
-.first-day-mes-4 {
-    grid-column-start: 5;
-}
-.first-day-mes-5 {
     grid-column-start: 7;
 }
-.first-day-mes-6 {
+.first-day-mes-2 {
     grid-column-start: 3;
 }
-.first-day-mes-7 {
-    grid-column-start: 5;
+.first-day-mes-3 {
+    grid-column-start: 3;
 }
-.first-day-mes-8 {
-    grid-column-start: 1;
-}
-.first-day-mes-9 {
-    grid-column-start: 4;
-}
-.first-day-mes-10 {
+.first-day-mes-4 {
     grid-column-start: 6;
 }
-.first-day-mes-11 {
+.first-day-mes-5 {
+    grid-column-start: 1;
+}
+.first-day-mes-6 {
+    grid-column-start: 4;
+}
+.first-day-mes-7 {
+    grid-column-start: 6;
+}
+.first-day-mes-8 {
     grid-column-start: 2;
 }
+.first-day-mes-9 {
+    grid-column-start: 5;
+}
+.first-day-mes-10 {
+    grid-column-start: 7;
+}
+.first-day-mes-11 {
+    grid-column-start: 3;
+}
 .first-day-mes-12 {
-    grid-column-start: 4;
+    grid-column-start: 5;
 }
 
 .contenedor-libros {
